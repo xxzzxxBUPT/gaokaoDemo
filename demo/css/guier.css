@@ -1,0 +1,92 @@
+﻿
+.content-li-hover:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+	color: white;
+}
+.content-li-hover:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.content-li-hover::before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f0f0f0;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.content-li-hover {
+	cursor: pointer:;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.provide p{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+}
+
+.content-top{
+	margin-top:30px;
+}
+
+.content-ul{
+	list-style: none;
+}
+
+.content-li{
+	border:1px solid #05a6b3;
+	margin:3px;
+}
+.my-caption{
+	margin-top:10px;
+}
+.my-margin-top{
+	margin-top:10px;
+}
+.my-margin-bottom{
+	margin-bottom:10px;
+}
+.my-border{
+	border:1px solid #D6D6D6;
+}
+@media(max-width:1024px){
+.content-li{
+	border:1px solid #D6D6D6;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.my-margin-top{
+	margin-top:5px;
+}
+.my-margin-bottom{
+	margin-bottom:5px;
+}
+}

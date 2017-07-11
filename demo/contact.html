@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>梦成真</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Tutoring Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+</head>
+<body>
+	<!--start-header-->
+	<div class="header" id="home">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="hvr-bounce-to-top">首页<span class="sr-only">(current)</span></a></li>
+					<li><a href="want.html" class="hvr-bounce-to-top">高考志愿填报</a></li>
+					<li><a href="zhuanye.html" class="hvr-bounce-to-top">大学信息库</a></li>
+					<li><a href="develop.html" class="hvr-bounce-to-top">学生发展专业分析</a></li>
+					<li><a href="experts.html" class="hvr-bounce-to-top">高考咨询专家</a></li>
+					<li><a href="contact.html" class="hvr-bounce-to-top">关于我们</a></li>
+                    <li class="contact">
+                        <a class="weixinA conA hvr-bounce-to-top" href=""><i class="springIcon"></i></a>
+                    </li>
+					<li class="contact">
+                        <a class="telA conA hvr-bounce-to-top" href=""><i class="springIcon"></i></a>
+                    </li>
+					<li class="login-area"><a href="register.html" class="hvr-bounce-to-top-red">注册</a></li>
+					<li class="login-area"><a href="login.html" class="hvr-bounce-to-top-red">登录</a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<!--end-header-->
+	<!--start-contact-->
+	
+	<!--end-contact-->
+	<!--start-contact-->
+	<div class="map">
+		<div class="container">
+			<div class="contact-top heading">
+				<h2>公司简介</h2>
+				<p>
+				梦成真立足于现下高三学生、家长志愿填报困惑导致大学选择失误的形势下。我们汇聚了多年参与重点大学（985、211高校）招生工作的专家，组成高考咨询专家组，对考生进行最精准的性格类型分析、专业选择方向、职业倾向测评、以及志愿填报指导，为其选择最适合自己的方向。在高考的路上，向过去留下一个完美的背影！秉承着认真钻研，求真务实的科学态度，为考生提供客观专业全面的信息，提供最优服务。
+				</p>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="contact">
+		<div class="container">
+			<div class="map-top heading">
+				<h1>公司地址</h1>
+			</div>
+			<div class="map-bottom"  id="mapContainer">
+			</div>
+		</div>
+	</div>
+	<!--end-contact-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-4 footer-left">
+					<span class="glyphicon glyphicon-map-marker map-marker" aria-hidden="true"></span>
+					<p>公司名<span>投资集团</span> 公司的地址</p>
+				</div>
+				<div class="col-md-4 footer-left">
+					<span class="glyphicon glyphicon-phone map-marker" aria-hidden="true"></span>
+					<p>+1 800 603 6035 <span>+1 900 300 1320</span> </p>
+				</div>
+				<div class="col-md-4 footer-left">
+					<p class="footer-class">Copyright &copy; 2017</p>
+					<ul>
+						<li><a href="#"><span class="fb"></span></a></li>
+						<li><a href="#"><span class="twit"></span></a></li>
+						<li><a href="#"><span class="rss"></span></a></li>
+						<li><a href="#"><span class="ggl"></span></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=uyOy5vLnMuYbiVKC1Rhq1thN"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				var container = document.getElementById("mapContainer");
+				container.style.height = 400+'px';
+				container.style.width = document.body.clientWidth;
+				var map = new BMap.Map(container, {
+					minZoom : 3,
+					maxZoom : 19					//设置地图允许的大小 
+				});
+				map.enableScrollWheelZoom(true);
+				map.centerAndZoom('北京', 13);
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-->
+</body>
+</html>
